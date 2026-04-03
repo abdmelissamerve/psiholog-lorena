@@ -15,7 +15,8 @@
       "Bash(sips -s format png -z 180 180 /Users/melissamerve/Documents/Projects/psiholog-lorena/public/logo.png --out /Users/melissamerve/Documents/Projects/psiholog-lorena/public/apple-icon.png)",
       "Bash(sips -s format png -z 32 32 /Users/melissamerve/Documents/Projects/psiholog-lorena/public/logo.png --out /Users/melissamerve/Documents/Projects/psiholog-lorena/public/favicon-32.png)",
       "Bash(rsync -av --exclude='.next' --exclude='node_modules' --exclude='.git' /Users/melissamerve/Documents/Projects/psiholog-lorena/ /Users/melissamerve/Documents/Projects/psiholog-lorena-cernat/)",
-      "Bash(rsync -av --exclude='.next' --exclude='node_modules' --exclude='.git' --delete /Users/melissamerve/Documents/Projects/psiholog-lorena/ /Users/melissamerve/Documents/Projects/psiholog-lorena-cernat/)"
+      "Bash(rsync -av --exclude='.next' --exclude='node_modules' --exclude='.git' --delete /Users/melissamerve/Documents/Projects/psiholog-lorena/ /Users/melissamerve/Documents/Projects/psiholog-lorena-cernat/)",
+      "Bash(npm install:*)"
     ]
   }
 }
