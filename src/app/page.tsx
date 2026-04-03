@@ -77,7 +77,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Servicii overview */}
+      {/* Servicii overviewww */}
       <section className="py-12 sm:py-18 bg-white">
         <div className="max-w-5xl mx-auto px-5 sm:px-6">
           <div className="max-w-2xl mx-auto text-center mb-14">
