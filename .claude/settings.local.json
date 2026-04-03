@@ -1,0 +1,20 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:www.psihologelenacostan.ro)",
+      "WebFetch(domain:sprijin360.ro)",
+      "Bash(npx create-next-app@latest . --typescript --tailwind --eslint --app --src-dir --import-alias \"@/*\" --no-turbopack)",
+      "Bash(export PATH=\"/usr/local/bin:/opt/homebrew/bin:$HOME/.nvm/versions/node/*/bin:$PATH\")",
+      "Bash(npx --version)",
+      "Bash(export PATH=\"/usr/local/bin:/opt/homebrew/bin:$PATH\")",
+      "Bash(~/.nvm/versions/node/v20.20.0/bin/node --version)",
+      "Bash(~/.nvm/versions/node/v20.20.0/bin/npm --version)",
+      "mcp__Claude_Preview__preview_start",
+      "Bash(sips -s format jpeg /Users/melissamerve/Documents/Projects/psiholog-lorena/public/lorena2.HEIC --out /Users/melissamerve/Documents/Projects/psiholog-lorena/public/lorena2.jpeg)",
+      "WebFetch(domain:www.google.com)",
+      "Bash(sips -s format png -z 180 180 /Users/melissamerve/Documents/Projects/psiholog-lorena/public/logo.png --out /Users/melissamerve/Documents/Projects/psiholog-lorena/public/apple-icon.png)",
+      "Bash(sips -s format png -z 32 32 /Users/melissamerve/Documents/Projects/psiholog-lorena/public/logo.png --out /Users/melissamerve/Documents/Projects/psiholog-lorena/public/favicon-32.png)",
+      "Bash(rsync -av --exclude='.next' --exclude='node_modules' --exclude='.git' /Users/melissamerve/Documents/Projects/psiholog-lorena/ /Users/melissamerve/Documents/Projects/psiholog-lorena-cernat/)"
+    ]
+  }
+}
