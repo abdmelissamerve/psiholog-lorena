@@ -85,7 +85,7 @@ export default function Home() {
               className="text-3xl sm:text-4xl font-semibold text-text mb-5"
               style={{ fontFamily: "var(--font-playfair)" }}
             >
-              Cum te pot ajuta
+              Cum te pot ajuta?
             </h2>
             <p className="text-base sm:text-lg text-text-light leading-relaxed">
               Ofer sedinte de psihoterapie individuala, servicii complete de evaluare si sedinte de logopedie,

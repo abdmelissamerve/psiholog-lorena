@@ -71,7 +71,7 @@ export default function DesprePage() {
                 Am ales psihologia din dorinta de a intelege mai profund ce se afla dincolo
                 de comportamente, dincolo de cuvinte si, uneori, dincolo de taceri.
               </p>
-              <p className="text-base sm:text-lg text-text-light leading-relaxed text-justify">
+              <p className="text-base sm:text-lg text-text-light leading-relaxed text-justify mb-6">
                 Pentru mine, aceasta profesie nu inseamna doar o meserie, ci un mod de a fi
                 prezenta pentru oameni, de a le oferi claritate, sens si sprijin real in
                 momentele in care au cea mai mare nevoie.
