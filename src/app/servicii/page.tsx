@@ -3,25 +3,25 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Servicii | Cernat Lorena-Mariana",
-  description: "Psihoterapie integrativa, evaluari clinice si logopedie. Sedinte online si la cabinet in Constanta.",
+  description: "Psihoterapie integrativă, evaluări clinice și logopedie. Ședințe online și la cabinet în Constanța.",
 };
 
 const serviciiOverview = [
   {
-    title: "Psihoterapie Integrativa",
-    description: "Sedinte individuale pentru adolescenti si adulti care se confrunta cu anxietate, blocaje emotionale sau dificultati relationale.",
+    title: "Psihoterapie Integrativă",
+    description: "Ședințe individuale pentru adolescenți și adulți care se confruntă cu anxietate, blocaje emoționale sau dificultăți relaționale.",
     anchor: "#psihoterapie",
     price: "150 RON",
   },
   {
-    title: "Evaluari Clinice",
-    description: "Evaluari psihologice complexe pentru copii si adulti, cu rapoarte detaliate si recomandari de interventie.",
+    title: "Evaluări Clinice",
+    description: "Evaluări psihologice complexe pentru copii și adulți, cu rapoarte detaliate și recomandări de intervenție.",
     anchor: "#evaluari",
     price: "200 RON",
   },
   {
     title: "Logopedie",
-    description: "Recuperarea si imbunatatirea limbajului pentru copiii care au nevoie de sprijin in dezvoltarea comunicarii.",
+    description: "Recuperarea și îmbunătățirea limbajului pentru copiii care au nevoie de sprijin în dezvoltarea comunicării.",
     anchor: "#logopedie",
     price: "120 RON",
   },
@@ -43,7 +43,7 @@ export default function ServiciiPage() {
             >
               Servicii psihologice
             </h1>
-            
+
           </div>
 
           {/* 3 carduri cu descriere scurta */}
@@ -82,29 +82,29 @@ export default function ServiciiPage() {
             className="text-2xl sm:text-3xl font-semibold text-text mb-6"
             style={{ fontFamily: "var(--font-playfair)" }}
           >
-            Psihoterapie Integrativa
+            Psihoterapie Integrativă
           </h2>
           <div className="space-y-5 text-base sm:text-lg text-text-light leading-relaxed text-justify mb-8">
             <p>
-              Ofer sedinte de psihoterapie individuala pentru adolescenti si adulti,
-              atat fata in fata cat si online. Sedintele sunt adaptate nevoilor si
-              ritmului fiecarei persoane.
+              Ofer ședințe de psihoterapie individuală pentru adolescenți și adulți,
+              atât față în față cât și online. Ședințele sunt adaptate nevoilor și
+              ritmului fiecărei persoane.
             </p>
             <p>
-              Lucrez cu oameni care se simt blocati in propriile tipare, se confrunta
-              cu anxietate, atacuri de panica, stres sau dificultati emotionale,
-              simt ca &bdquo;ceva nu e in regula&rdquo; dar nu stiu exact ce.
+              Lucrez cu oameni care se simt blocați în propriile tipare, se confruntă
+              cu anxietate, atacuri de panică, stres sau dificultăți emoționale,
+              simt că &bdquo;ceva nu e în regulă&rdquo; dar nu știu exact ce.
             </p>
             <p>
-              Abordarea mea este una calda, profund umana si adaptata fiecarei persoane.
-              Nu cred in retete universale, ci in intelegerea contextului de viata, a istoriei
-              personale si a modului unic in care fiecare om functioneaza.
+              Abordarea mea este una caldă, profund umană și adaptată fiecărei persoane.
+              Nu cred în rețete universale, ci în înțelegerea contextului de viață, a istoriei
+              personale și a modului unic în care fiecare om funcționează.
             </p>
           </div>
           <div className="flex flex-wrap gap-3">
-            <span className="text-sm bg-cream text-text-muted px-4 py-2 rounded-full">Adolescenti si adulti</span>
+            <span className="text-sm bg-cream text-text-muted px-4 py-2 rounded-full">Adolescenți și adulți</span>
             <span className="text-sm bg-cream text-text-muted px-4 py-2 rounded-full">Online sau la cabinet</span>
-            <span className="text-sm bg-cream text-text-muted px-4 py-2 rounded-full">~50 minute / sedinta</span>
+            <span className="text-sm bg-cream text-text-muted px-4 py-2 rounded-full">~50 minute / ședință</span>
           </div>
         </div>
       </section>
@@ -116,23 +116,23 @@ export default function ServiciiPage() {
             className="text-2xl sm:text-3xl font-semibold text-text mb-6"
             style={{ fontFamily: "var(--font-playfair)" }}
           >
-            Evaluari Clinice
+            Evaluări Clinice
           </h2>
           <div className="space-y-5 text-base sm:text-lg text-text-light leading-relaxed text-justify mb-8">
             <p>
-              Realizez evaluari clinice pentru copii si adulti, fie pentru incadrarea
-              in grad de handicap, fie pentru o intelegere mai profunda a personalitatii
-              si a dificultatilor cu care se confrunta persoana.
+              Realizez evaluări clinice pentru copii și adulți, fie pentru încadrarea
+              în grad de handicap, fie pentru o înțelegere mai profundă a personalității
+              și a dificultăților cu care se confruntă persoana.
             </p>
             <p>
-              Evaluarea include teste psihologice, rapoarte clinice si recomandari
-              personalizate de interventie.
+              Evaluarea include teste psihologice, rapoarte clinice și recomandări
+              personalizate de intervenție.
             </p>
           </div>
           <div className="flex flex-wrap gap-3">
-            <span className="text-sm bg-white text-text-muted px-4 py-2 rounded-full">Copii si adulti</span>
+            <span className="text-sm bg-white text-text-muted px-4 py-2 rounded-full">Copii și adulți</span>
             <span className="text-sm bg-white text-text-muted px-4 py-2 rounded-full">Raport detaliat</span>
-            <span className="text-sm bg-white text-text-muted px-4 py-2 rounded-full">Recomandari personalizate</span>
+            <span className="text-sm bg-white text-text-muted px-4 py-2 rounded-full">Recomandări personalizate</span>
           </div>
         </div>
       </section>
@@ -148,20 +148,20 @@ export default function ServiciiPage() {
           </h2>
           <div className="space-y-5 text-base sm:text-lg text-text-light leading-relaxed text-justify mb-8">
             <p>
-              Ofer sedinte de logopedie dedicate recuperarii, corectarii sau
-              imbunatatirii limbajului, adaptate copiilor care au nevoie de sprijin
-              in dezvoltarea sau optimizarea comunicarii.
+              Ofer ședințe de logopedie dedicate recuperării, corectării sau
+              îmbunătățirii limbajului, adaptate copiilor care au nevoie de sprijin
+              în dezvoltarea sau optimizarea comunicării.
             </p>
             <p>
-              De multe ori, dificultatile emotionale si cele de comunicare sunt
-              strans legate. Experienta mea in ambele domenii imi permite o
-              abordare completa.
+              De multe ori, dificultățile emoționale și cele de comunicare sunt
+              strâns legate. Experiența mea în ambele domenii îmi permite o
+              abordare completă.
             </p>
           </div>
           <div className="flex flex-wrap gap-3">
             <span className="text-sm bg-cream text-text-muted px-4 py-2 rounded-full">Copii</span>
             <span className="text-sm bg-cream text-text-muted px-4 py-2 rounded-full">Recuperare limbaj</span>
-            <span className="text-sm bg-cream text-text-muted px-4 py-2 rounded-full">Optimizarea comunicarii</span>
+            <span className="text-sm bg-cream text-text-muted px-4 py-2 rounded-full">Optimizarea comunicării</span>
           </div>
         </div>
       </section>
@@ -169,12 +169,12 @@ export default function ServiciiPage() {
       {/* Pret + CTA */}
       <section className="py-16 sm:py-20 bg-cream">
         <div className="max-w-xl mx-auto px-5 sm:px-6 text-center">
-         
+
           <Link
             href="/contact"
             className="inline-flex items-center justify-center bg-text text-white px-8 py-4 rounded-full text-base sm:text-lg font-medium hover:bg-text-light transition-all duration-300"
           >
-            Programeaza o consultatie
+            Programează o ședință
           </Link>
         </div>
       </section>

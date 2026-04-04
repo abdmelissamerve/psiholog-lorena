@@ -3,18 +3,18 @@ import Link from "next/link";
 
 const services = [
   {
-    title: "Psihoterapie Integrativa",
-    description: "Sedinte individuale pentru adolescenti si adulti, online sau la cabinet.",
+    title: "Psihoterapie Integrativă",
+    description: "Ședințe individuale pentru adolescenți și adulți, online sau la cabinet.",
     href: "/servicii",
   },
   {
-    title: "Evaluari Clinice",
-    description: "Evaluari psihologice pentru copii si adulti, cu rapoarte detaliate.",
+    title: "Evaluări Clinice",
+    description: "Evaluări psihologice pentru copii și adulți, cu rapoarte detaliate.",
     href: "/servicii",
   },
   {
     title: "Logopedie",
-    description: "Recuperarea si imbunatatirea limbajului la copii.",
+    description: "Recuperarea și îmbunătățirea limbajului la copii.",
     href: "/servicii",
   },
 ];
@@ -39,24 +39,24 @@ export default function Home() {
               <br />
               Lorena-Mariana
             </h1>
-            <p className="text-rose-dark text-sm sm:text-base font-medium tracking-wide mb-8">
+            <p className="text-rose-dark text-md sm:text-lg font-medium tracking-wide mb-8">
               Psihoterapeut integrativ &bull; Psiholog clinician &bull; Logoped
             </p>
             <p
               className="text-xl sm:text-2xl text-text-light leading-relaxed max-w-lg mx-auto lg:mx-0 mb-4 italic"
               style={{ fontFamily: "var(--font-playfair)" }}
             >
-              Cand ai simtit ultima data ca esti cu adevarat bine, nu doar &bdquo;in regula&rdquo;?
+              Când ai simțit ultima dată că ești cu adevărat bine, nu doar &bdquo;în regulă&rdquo;?
             </p>
             <p className="text-base sm:text-lg text-text-light leading-relaxed max-w-lg mx-auto lg:mx-0 mb-8">
-              Sunt aici cu o abordare calda si adaptata fiecarui om.
-              Lucrez cu emotii, ganduri si dificultati de exprimare, la copii si adulti.
+              Sunt aici cu o abordare caldă și adaptată fiecărui om.
+              Lucrez cu emoții, gânduri și dificultăți de exprimare, la copii și adulți.
             </p>
             <Link
               href="/contact"
               className="inline-flex items-center justify-center bg-rose text-white px-8 py-4 rounded-full text-base sm:text-lg font-medium hover:bg-rose-dark transition-all duration-300 hover:shadow-lg hover:shadow-rose/25"
             >
-              Programeaza o consultatie
+              Programează o ședință
             </Link>
           </div>
 
@@ -88,8 +88,8 @@ export default function Home() {
               Cum te pot ajuta?
             </h2>
             <p className="text-base sm:text-lg text-text-light leading-relaxed">
-              Ofer sedinte de psihoterapie individuala, servicii complete de evaluare si sedinte de logopedie,
-              adaptate nevoilor si ritmului fiecarei persoane.
+              Ofer ședințe de psihoterapie individuală, servicii complete de evaluare și ședințe de logopedie,
+              adaptate nevoilor și ritmului fiecărei persoane.
             </p>
           </div>
 
@@ -122,16 +122,16 @@ export default function Home() {
             className="text-2xl sm:text-3xl font-semibold text-text mb-4 leading-snug"
             style={{ fontFamily: "var(--font-playfair)" }}
           >
-            Daca simti ca a venit momentul sa te ocupi
-            <span className="text-rose"> cu adevarat de tine</span>,
+            Dacă simți că a venit momentul să te ocupi
+            <span className="text-rose"> cu adevărat de tine</span>,
             poate acesta este primul pas.
           </p>
-         
+
           <Link
             href="/contact"
             className="inline-flex items-center justify-center bg-rose text-white mt-4 px-8 py-4 rounded-full text-base sm:text-lg font-medium hover:bg-rose-dark transition-all duration-300 hover:shadow-lg hover:shadow-rose/25"
           >
-            Contacteaza-ma
+            Contactează-mă
           </Link>
         </div>
       </section>

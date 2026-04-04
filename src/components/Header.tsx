@@ -35,7 +35,7 @@ export function Header() {
     >
       <div className="max-w-5xl mx-auto px-5 sm:px-6 flex items-center justify-between">
         <Link href="/" className="flex items-center gap-2.5">
-          <div className="w-9 h-9 sm:w-10 sm:h-10 rounded-full overflow-hidden flex-shrink-0 border border-rose/20">
+          <div className="w-11 h-11 sm:w-12 sm:h-12 rounded-full overflow-hidden flex-shrink-0 border border-rose/20">
             <Image
               src="/logo.png"
               alt="Logo Cabinet Psihologie"
@@ -45,7 +45,7 @@ export function Header() {
             />
           </div>
           <span
-            className="text-lg sm:text-xl font-semibold tracking-wide"
+            className="text-xl sm:text-2xl font-semibold tracking-wide"
             style={{ fontFamily: "var(--font-playfair)" }}
           >
             Lorena Cernat
@@ -71,7 +71,7 @@ export function Header() {
             href="/contact"
             className="bg-rose text-white text-sm sm:text-base px-5 py-2 rounded-full hover:bg-rose-dark transition-colors"
           >
-            Programeaza-te
+            Programează-te
           </Link>
         </nav>
 
@@ -111,7 +111,7 @@ export function Header() {
             href="/contact"
             className="bg-rose text-white text-lg px-7 py-2.5 rounded-full hover:bg-rose-dark transition-colors"
           >
-            Programeaza-te
+            Programează-te
           </Link>
         </nav>
       </div>

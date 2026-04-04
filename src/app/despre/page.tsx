@@ -3,29 +3,29 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Despre mine | Cernat Lorena-Mariana",
-  description: "Psihoterapeut integrativ, psiholog clinician si logoped cu experienta in lucrul cu copii si adulti.",
+  description: "Psihoterapeut integrativ, psiholog clinician și logoped cu experiență în lucrul cu copii și adulți.",
 };
 
 const studii = [
   {
     period: "2019 - 2022",
-    title: "Licenta in Psihologie",
-    place: "Universitatea \"Ovidius\" din Constanta",
+    title: "Licență în Psihologie",
+    place: "Universitatea \"Ovidius\" din Constanța",
   },
   {
     period: "2022 - 2024",
-    title: "Master in Psihodiagnoza personalitatii",
-    place: "Universitatea \"Ovidius\" din Constanta",
+    title: "Master în Psihodiagnoza personalității",
+    place: "Universitatea \"Ovidius\" din Constanța",
   },
   {
     period: "2023 - prezent",
-    title: "Membra a Colegiului Psihologilor din Romania",
+    title: "Membră a Colegiului Psihologilor din România",
     place: "",
   },
   {
     period: "2023 - prezent",
-    title: "Formare in Psihoterapie Integrativa",
-    place: "IRPI - Institutul Roman de Psihoterapie Integrativa",
+    title: "Formare în Psihoterapie Integrativă",
+    place: "IRPI - Institutul Român de Psihoterapie Integrativă",
   },
 ];
 
@@ -61,20 +61,20 @@ export default function DesprePage() {
                 Cernat Lorena-Mariana
               </h1>
               <p className="text-base sm:text-lg text-text-light leading-relaxed mb-5 text-justify">
-                Mi-am dorit sa inteleg oamenii cu mult inainte sa stiu ca asta se va numi,
-                mai tarziu, psihologie. M-a fascinat mereu felul diferit in care fiecare persoana
-                simte, gandeste si reactioneaza, chiar si in situatii asemanatoare. Aceasta curiozitate
-                fata de lumea interioara a oamenilor a fost, de fapt, primul pas catre
-                drumul pe care il urmez astazi.
+                Mi-am dorit să înțeleg oamenii cu mult înainte să știu că asta se va numi,
+                mai târziu, psihologie. M-a fascinat mereu felul diferit în care fiecare persoană
+                simte, gândește și reacționează, chiar și în situații asemănătoare. Această curiozitate
+                față de lumea interioară a oamenilor a fost, de fapt, primul pas către
+                drumul pe care îl urmez astăzi.
               </p>
               <p className="text-base sm:text-lg text-text-light leading-relaxed mb-5 text-justify">
-                Am ales psihologia din dorinta de a intelege mai profund ce se afla dincolo
-                de comportamente, dincolo de cuvinte si, uneori, dincolo de taceri.
+                Am ales psihologia din dorința de a înțelege mai profund ce se află dincolo
+                de comportamente, dincolo de cuvinte și, uneori, dincolo de tăceri.
               </p>
               <p className="text-base sm:text-lg text-text-light leading-relaxed text-justify mb-6">
-                Pentru mine, aceasta profesie nu inseamna doar o meserie, ci un mod de a fi
-                prezenta pentru oameni, de a le oferi claritate, sens si sprijin real in
-                momentele in care au cea mai mare nevoie.
+                Pentru mine, această profesie nu înseamnă doar o meserie, ci un mod de a fi
+                prezentă pentru oameni, de a le oferi claritate, sens și sprijin real în
+                momentele în care au cea mai mare nevoie.
               </p>
             </div>
           </div>
@@ -92,28 +92,28 @@ export default function DesprePage() {
           </h2>
           <div className="space-y-5 text-base sm:text-lg text-text-light leading-relaxed">
             <p className="text-justify">
-              Expertiza mea inseamna mai mult decat formari si specializari.
-              Inseamna felul in care reusesc sa inteleg omul din fata mea,
-              dincolo de ceea ce spune sau arata la prima vedere.
+              Expertiza mea înseamnă mai mult decât formări și specializări.
+              Înseamnă felul în care reușesc să înțeleg omul din fața mea,
+              dincolo de ceea ce spune sau arată la prima vedere.
             </p>
             <p className="text-justify">
-              Pregatirea in <strong className="text-text">psihologie clinica</strong> imi
-              ofera claritate in evaluare, in intelegerea simptomelor si a modului in care
-              acestea influenteaza viata de zi cu zi.
+              Pregătirea în <strong className="text-text">psihologie clinică</strong> îmi
+              oferă claritate în evaluare, în înțelegerea simptomelor și a modului în care
+              acestea influențează viața de zi cu zi.
             </p>
             <p className="text-justify">
-              Formarea in <strong className="text-text">psihoterapie integrativa</strong> ma
-              ajuta sa privesc emotiile, tiparele si istoria personala ca pe un intreg,
+              Formarea în <strong className="text-text">psihoterapie integrativă</strong> mă
+              ajută să privesc emoțiile, tiparele și istoria personală ca pe un întreg,
               nu ca pe lucruri separate.
             </p>
             <p className="text-justify">
-              Experienta din <strong className="text-text">logopedie</strong> completeaza
-              aceasta perspectiva, pentru ca de multe ori dificultatile emotionale si cele
-              de comunicare sunt strans legate.
+              Experiența din <strong className="text-text">logopedie</strong> completează
+              această perspectivă, pentru că de multe ori dificultățile emoționale și cele
+              de comunicare sunt strâns legate.
             </p>
             <p className="text-justify">
-              Pentru mine, expertiza inseamna sa pot vedea ceea ce nu este usor de pus
-              in cuvinte si sa creez un spatiu in care lucrurile incep, treptat, sa se aseze.
+              Pentru mine, expertiza înseamnă să pot vedea ceea ce nu este ușor de pus
+              în cuvinte și să creez un spațiu în care lucrurile încep, treptat, să se așeze.
             </p>
           </div>
         </div>
@@ -126,7 +126,7 @@ export default function DesprePage() {
             className="text-2xl sm:text-3xl font-semibold text-text mb-10"
             style={{ fontFamily: "var(--font-playfair)" }}
           >
-            Studii si formare
+            Studii și formare
           </h2>
           <div className="space-y-0">
             {studii.map((item, i) => (
@@ -149,33 +149,33 @@ export default function DesprePage() {
         </div>
       </section>
 
-      {/* Experienta */}
+      {/* Experiență */}
       <section className="py-12 sm:py-18 bg-white">
         <div className="max-w-3xl mx-auto px-5 sm:px-6">
           <h2
             className="text-2xl sm:text-3xl font-semibold text-text mb-8"
             style={{ fontFamily: "var(--font-playfair)" }}
           >
-            Experienta
+            Experiență
           </h2>
           <div className="space-y-5 text-base sm:text-lg text-text-light leading-relaxed">
             <p className="text-justify">
-              Am peste doi ani si jumatate de experienta in cabinet individual de psihologie,
-              timp in care am lucrat cu copii si adulti.
+              Am peste doi ani și jumătate de experiență în cabinet individual de psihologie,
+              timp în care am lucrat cu copii și adulți.
             </p>
             <p className="text-justify">
-              Aceasta experienta m-a invatat sa observ cu atentie si sa inteleg nu doar
-              ceea ce oamenii spun, ci si ceea ce simt si nu exprima verbal.
+              Această experiență m-a învățat să observ cu atenție și să înțeleg nu doar
+              ceea ce oamenii spun, ci și ceea ce simt și nu exprimă verbal.
             </p>
             <p className="text-justify">
-              Am acumulat cunostinte practice in evaluari psihologice, psihoterapie si
-              logopedie, pe care le folosesc pentru a ghida oamenii spre schimbari reale
-              si cresterea calitatii vietii.
+              Am acumulat cunoștințe practice în evaluări psihologice, psihoterapie și
+              logopedie, pe care le folosesc pentru a ghida oamenii spre schimbări reale
+              și creșterea calității vieții.
             </p>
             <p className="text-justify">
-              Fiecare intalnire mi-a consolidat abilitatea de a crea un spatiu sigur,
-              in care oamenii pot sa se descopere, sa se inteleaga si sa se dezvolte
-              in ritmul lor propriu.
+              Fiecare întâlnire mi-a consolidat abilitatea de a crea un spațiu sigur,
+              în care oamenii pot să se descopere, să se înțeleagă și să se dezvolte
+              în ritmul lor propriu.
             </p>
           </div>
         </div>

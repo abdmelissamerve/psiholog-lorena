@@ -34,7 +34,7 @@ export function Footer() {
             <p className="text-xs font-semibold uppercase tracking-widest text-rose-light mb-3">Pagini</p>
             <ul className="space-y-1.5">
               {[
-                { href: "/", label: "Acasa" },
+                { href: "/", label: "Acasă" },
                 { href: "/despre", label: "Despre" },
                 { href: "/servicii", label: "Servicii" },
                 { href: "/contact", label: "Contact" },
@@ -52,12 +52,12 @@ export function Footer() {
           <div>
             <p className="text-xs font-semibold uppercase tracking-widest text-rose-light mb-3">Contact</p>
             <p className="text-sm text-cream-dark mb-1">
-              <a href="tel:0769992906" className="hover:text-rose-light transition-colors">0769.992.906</a>
+              <a href="tel:0769992906" className="hover:text-rose-light transition-colors">0769 992 906</a>
             </p>
             <p className="text-sm text-cream-dark mb-1">
               <a href="mailto:cernatlorena@yahoo.com" className="hover:text-rose-light transition-colors">cernatlorena@yahoo.com</a>
             </p>
-            <p className="text-sm text-cream-dark">Str. Serban Voda nr. 6D, Constanta</p>
+            <p className="text-sm text-cream-dark">Str. Șerban Vodă nr. 6D, Constanța</p>
           </div>
         </div>
 

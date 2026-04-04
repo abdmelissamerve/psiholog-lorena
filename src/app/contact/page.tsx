@@ -3,7 +3,7 @@ import { ContactForm } from "@/components/ContactForm";
 
 export const metadata: Metadata = {
   title: "Contact | Cernat Lorena-Mariana",
-  description: "Programeaza o consultatie. Cabinet de Psihologie in Constanta.",
+  description: "Programează o ședință. Cabinet de Psihologie în Constanța.",
 };
 
 const program = [
@@ -29,11 +29,11 @@ export default function ContactPage() {
             className="text-3xl sm:text-4xl font-semibold text-text mb-5"
             style={{ fontFamily: "var(--font-playfair)" }}
           >
-            Programeaza o sedinta
+            Programează o ședință
           </h1>
           <p className="text-base sm:text-lg text-text-light leading-relaxed">
-            Acesta este un spatiu dedicat intelegerii, cresterii si descoperirii de sine.
-            Impreuna putem explora experientele tale si gasi perspective noi, in ritmul tau.
+            Acesta este un spațiu dedicat înțelegerii, creșterii și descoperirii de sine.
+            Împreună putem explora experiențele tale și găsi perspective noi, în ritmul tău.
           </p>
         </div>
       </section>
@@ -76,8 +76,8 @@ export default function ContactPage() {
               <div>
                 <h3 className="text-sm font-semibold text-text-muted uppercase tracking-widest mb-3">Telefon</h3>
                 <div className="flex items-center gap-3">
-                  <a href="tel:0769992906" className="text-xl sm:text-2xl font-semibold text-text hover:text-rose transition-colors">
-                    0769.992.906
+                  <a href="tel:0769992906" className="text-xl sm:text-2xl font-semibold text-text hover:text-rose transition-colors mr-10">
+                    0769 992 906
                   </a>
                   <a
                     href="https://www.facebook.com/people/Cabinet-de-Psihologie-Cernat-Lorena/61556642702400/"
@@ -106,7 +106,7 @@ export default function ContactPage() {
 
               {/* Harta */}
               <div>
-                <h3 className="text-sm font-semibold text-text-muted uppercase tracking-widest mb-3">Locatie</h3>
+                <h3 className="text-sm font-semibold text-text-muted uppercase tracking-widest mb-3">Locație</h3>
                 <div className="rounded-xl overflow-hidden border border-cream-dark/30 mb-2">
                   <iframe
                     src="https://www.google.com/maps/embed?pb=!4v1775246219607!6m8!1m7!1s2fhYC8dF77YiDVIhcF7D2Q!2m2!1d44.19832581741419!2d28.62560607828304!3f50.76!4f-14.760000000000005!5f0.7820865974627469"
@@ -120,8 +120,8 @@ export default function ContactPage() {
                     className="w-full"
                   />
                 </div>
-                <p className="text-sm text-text">Strada Serban Voda nr. 6D, Constanta</p>
-                <p className="text-xs text-text-muted mt-0.5">Sedinte disponibile si online</p>
+                <p className="text-sm text-text">Strada Șerban Vodă nr. 6D, Constanța</p>
+                <p className="text-xs text-text-muted mt-0.5">Ședințe disponibile și online</p>
               </div>
 
             </div>

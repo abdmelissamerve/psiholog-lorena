@@ -9,7 +9,7 @@ export async function POST(request: Request) {
 
     if (!name || !email || !message) {
       return NextResponse.json(
-        { error: "Numele, emailul si mesajul sunt obligatorii." },
+        { error: "Numele, emailul și mesajul sunt obligatorii." },
         { status: 400 }
       );
     }
@@ -23,7 +23,7 @@ export async function POST(request: Request) {
         <p><strong>Nume:</strong> ${name}</p>
         <p><strong>Telefon:</strong> ${phone || "Necompletat"}</p>
         <p><strong>Email:</strong> ${email}</p>
-        <p><strong>Metoda preferata:</strong> ${method || "Email"}</p>
+        <p><strong>Metoda preferată:</strong> ${method || "Email"}</p>
         <hr />
         <p><strong>Mesaj:</strong></p>
         <p>${message.replace(/\n/g, "<br />")}</p>
@@ -35,7 +35,7 @@ export async function POST(request: Request) {
   } catch (error) {
     console.error("Email error:", error);
     return NextResponse.json(
-      { error: "A aparut o eroare. Te rugam incearca din nou." },
+      { error: "A apărut o eroare. Te rugăm încearcă din nou." },
       { status: 500 }
     );
   }
