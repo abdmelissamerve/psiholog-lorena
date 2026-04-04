@@ -15,7 +15,7 @@ export async function POST(request: Request) {
     }
 
     await resend.emails.send({
-      from: "Cabinet Psihologie <contact@psiholog-cernat-lorena.app>",
+      from: "Cabinet Psihologie <contact@psiholog-cernat-lorena.com>",
       to: "cernatlorena@yahoo.com",
       subject: `Mesaj nou de la ${name}`,
       html: `
