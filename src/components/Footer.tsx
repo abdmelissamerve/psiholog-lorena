@@ -61,8 +61,9 @@ export function Footer() {
           </div>
         </div>
 
-        <div className="border-t border-white/10 pt-6 text-center text-xs text-text-muted">
-          &copy; {new Date().getFullYear()} Cabinet de Psihologie Cernat Lorena-Mariana
+        <div className="border-t border-white/10 pt-6 flex flex-col sm:flex-row items-center sm:justify-between gap-1 text-text-muted">
+          <p className="text-sm">&copy; {new Date().getFullYear()} Cabinet de Psihologie Cernat Lorena-Mariana</p>
+          <p className="text-sm">Realizat de <a href="https://linkedin.com/in/melissa-abdula-4352131a0" target="_blank" rel="noopener noreferrer" className="hover:text-rose-light transition-colors underline">Abdula Melissa Merve</a></p>
         </div>
       </div>
     </footer>
